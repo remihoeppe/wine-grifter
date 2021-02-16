@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+  
+  <title>Wine Grifter</title>
+
+</head>
+
+<body class="products-background">
+
+<!-- START OF NAVBAR -->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Wine Grifter</a>
+
+    <!-- This is the responsive mobile toggle button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+      
+      <!-- This creates a drop down menu with a series of linked pages under anchor tags -->
+        <li class="nav-item dropdown active">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Cellar
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Red Wines</a>
+            <a class="dropdown-item" href="#">White Wines</a>
+            <!-- <div class="dropdown-divider"></div> -->
+            <a class="dropdown-item" href="#">Sparkling Wines</a>
+          </div>
+
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Shopping Cart</a>
+        </li>
+      </ul>
+
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+<!-- END OF NAVBAR -->
+
+    <div class="row header-picture">
+      <h1>WINE GRIFTER</h1>
+    </div>
+  </div>
+
+  <main id="aboutGrid" class="container">
+
+    <div class="row align-items-center">
+      <div class="col-lg-8">
+        <div>
+          <img id="about-picture" src="Images/vine1.jpg">
+        </div>
+      </div>
+
+      <div class="col-lg-4 ">
+        <h2>Email</h2>
+        <p>
+       winegrifter@wine.com.au
+        </p>
+        <h2>Telephone</h2>
+        <p>
+      02 0000 0000
+        </p>
+
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+
+      </div>
+
+  </main>
+
+  
+
+
+  <footer class="row">
+    <div class="col">
+      <p class="footer__text">
+        Crafted by R.H.L. <i class="fas fa-copyright"></i> 
+        <script>document.write(new Date().getFullYear())</script>
+        / Powered by BioDynamic Single Block Wines and Sheer Will</p>
+    </div>
+  </footer>
+
+
+</body>
+</html>

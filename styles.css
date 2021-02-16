@@ -52,8 +52,12 @@ footer {
   margin: 0px;
 }
 
-#productGrid {
+#productGrid, #aboutGrid {
   margin: 75px auto;
+}
+
+#about-picture {
+  width: 100%;
 }
 
 /*# sourceMappingURL=styles.css.map */
