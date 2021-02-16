@@ -1,3 +1,7 @@
+.products-background {
+  background-color: #eeeeee;
+}
+
 
 .header-picture {
   background-image: url("Images/vine1.jpg");
@@ -14,6 +18,7 @@
     color: white;
     text-shadow: 2px 2px black;
     font-size: 64px;
+    text-align: center;
   }
 }
 
@@ -34,4 +39,27 @@ footer {
 
 .carousel-caption {
   color: black;
+}
+
+.box {
+  margin: 10px;
+  padding: 20px;
+  background-color: white;
+  border: 2px solid #6666;
+  border-radius: 15px;
+  text-align: center;
+
+  img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    margin: 0px;
+  }
+}
+
+#productGrid {
+  margin: 75px auto;
 }
